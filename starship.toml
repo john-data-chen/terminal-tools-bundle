@@ -38,9 +38,8 @@ ahead = '⇡${count}'
 style = "bold blue"
 diverged = '⇕⇡${ahead_count}⇣${behind_count}'
 behind = '⇣${count}'
-up_to_date = '✓'
 conflicted = '󰨮'
-stashed = '📦 \\$${count}'
+stashed = '📦 \ ${count}'
 modified = "modified ${count}"
 
 [nodejs]
@@ -59,14 +58,3 @@ symbol = " "
 min_time = 2_000
 format = "took [$duration ]($style)"
 style = "bold white"
-
-# Customize the battery indicator
-[battery]
-format = "[$symbol $percentage]($style) "
-empty_symbol = "🪫"
-charging_symbol = '⚡️ '
-full_symbol = '🔋'
-
-[[battery.display]]
-threshold = 20
-style = 'red'
