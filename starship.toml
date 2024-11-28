@@ -8,14 +8,17 @@ format = """$all"""
 symbol = " "
 
 [character]
-success_symbol = "[➜](white)"
-error_symbol = "[➜](red)"
+success_symbol = "[➜](green)"
+error_symbol = "[x](red)"
 
 [directory]
 read_only = " 󰌾"
-truncation_length = 3
+read_only_style = "red"
+truncation_length = 5
 truncate_to_repo = true
+truncation_symbol = '.../'
 format = "[$path]($style)[$read_only]($read_only_style) "
+
 
 [docker_context]
 symbol = " "
@@ -23,8 +26,8 @@ symbol = " "
 [git_branch]
 style = "bold yellow"
 symbol = " "
-truncation_length = 20
-truncation_symbol = "..."
+truncation_length = 10
+truncation_symbol = ".../"
 
 [git_commit]
 commit_hash_length = 4
