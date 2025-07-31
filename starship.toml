@@ -66,6 +66,6 @@ not_capable_style = "bold red"
 symbol = " "
 
 [cmd_duration]
-min_time = 2_000
+min_time = 1_000
 format = "took [$duration ]($style)"
 style = "bold white"
