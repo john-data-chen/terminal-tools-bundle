@@ -1,4 +1,4 @@
-# Config of fish shell and starship prompt
+# Config bundle of my terminal tools
 
 - [kitty](https://sw.kovidgoyal.net/kitty/)
 - [fish shell](https://fishshell.com/)
