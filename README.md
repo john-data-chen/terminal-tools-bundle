@@ -1,5 +1,6 @@
 # Config bundle of my terminal tools
 
+- [cmux](https://github.com/manaflow-ai/cmux)
 - [ghostty](https://github.com/ghostty-org/ghostty)
 - [fish shell](https://fishshell.com/)
 - [starship](https://starship.rs/)
