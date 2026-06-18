@@ -11,5 +11,11 @@ set -g fish_history_max_length 5000
 # This won't be added again if you remove it.
 source ~/.orbstack/shell/init2.fish 2>/dev/null || :
 
-# Added by Windsurf
-fish_add_path /Users/johnchen/.codeium/windsurf/bin
+# Git
+set -gx LANG en_US.UTF-8
+
+# Added by Antigravity CLI installer
+set -gx PATH "/Users/johnchen/.local/bin" $PATH
+
+# Hermes Agent — ensure ~/.local/bin is on PATH
+fish_add_path "$HOME/.local/bin"
